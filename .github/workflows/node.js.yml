@@ -3,10 +3,10 @@
 
 name: Node.js CI
 
-// event
+# event
 on: push
 
-// jobs
+# jobs
 jobs:
   supder-lint:
     name: Lint code base
@@ -19,5 +19,5 @@ jobs:
         uses: jithub/super-linter@v3
         env:
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{  }}
 
